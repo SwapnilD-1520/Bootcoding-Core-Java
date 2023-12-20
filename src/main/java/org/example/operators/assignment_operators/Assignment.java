@@ -1,5 +1,6 @@
 package org.example.operators.assignment_operators;//Write a Java program to demonstrate the use of various assignment operators (+=, -=, *=, /=).
 
+//gyuuygu
 class Assignment
 {		
 	public static void main(String args[])
