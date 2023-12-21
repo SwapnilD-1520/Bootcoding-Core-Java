@@ -8,6 +8,7 @@ public class AreaOfShape {
     static float  pi = 3.14f;
              public static void main(String[] args) {
 
+
             Scanner sc = new Scanner(System.in);
             //
             System.out.println(" Enter Radius = ");
