@@ -4,29 +4,34 @@ package org.example.scanner_class;
 import java.util.Scanner;
 
 public class AreaOfShape {
-    public static void main(String[] args) {
-        //int area;
-        int base = 8;
-        int height = 9  ;
-        int radius =  8;
-        Scanner area1 = new Scanner(System.in); //creating  first object for taking input from user
-        Scanner area2 = new Scanner(System.in); //creating second object taking input from user
-        Scanner area3 = new Scanner(System.in); //creating second object taking input from user
-        System.out.println(" Enter Number = ");
-        System.out.println(" Enter radius = ");
-        System.out.println(" Enter base & height = ");
+
+    static float  pi = 3.14f;
+             public static void main(String[] args) {
+
+            Scanner sc = new Scanner(System.in);
+            //
+            System.out.println(" Enter Radius = ");
+             float radius = sc.nextFloat();    //float radius =  variable declaration
+             double area = 3.14 * radius * radius ;
+            System.out.println(" Area of Circle = " + area );
 
 
-        int square  = area1.nextInt();  //coverting string into integer stored in new variable
-        double circle = area2.nextDouble();  //coverting string into double stored in new variable
-        double triangle = area3.nextDouble(); //coverting string into integer stored in new variable
+             System.out.println(" Enter Side = ");
+             int side = sc.nextInt();     //int side = variable declration
+             int sqr = side * side;
+            System.out.println(" Area of square = " + sqr );
 
-            square = square * square ; // formula for area of square i.e (side * side )
-            circle = 3.14 * radius * radius ;
-            triangle = 1/2 * base * height ;
-        System.out.println(" Area of Square   = " + square );
-        System.out.println(" Area of circle   = " + circle );
-        System.out.println(" Area of Triangle   = " + triangle );
+            System.out.println(" Enter base & Height");
+            int base =  sc.nextInt();       // variable declaration
+            int height = sc.nextInt();     //variable declaration
+            int calculate =  (base * height)/2;
+            System.out.println(" Area of Triangle = " + calculate );
+
+
+
+
+
+
 
 
     }
