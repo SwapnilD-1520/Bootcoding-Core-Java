@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Factorial {
     public static void main(String[] args) {
+
         int fact = 1;
         Scanner f1 = new Scanner(System.in);
         System.out.println(" Enter Number = ");
