@@ -7,7 +7,7 @@ class CalculatePower
 	{
 			int a = 2;
 			int power = 1;
-			System.out.println("The 2 raised to the power of number " 	 	+ (0) + " is " + 1  );//print hardcode value for 2 raised to the power 0.
+			System.out.println("The 2 raised to the power of number = " + (0) + " is " + 1  ) ;//print hardcode value for 2 raised to the power 0.
 			for( int i =1; i<=5; i++)
 			{
 				power = power * a;
