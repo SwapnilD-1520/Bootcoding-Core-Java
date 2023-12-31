@@ -18,7 +18,7 @@ public class EvenOdd
         public static void main(String[] args)
         {
             EvenOdd E1 = new EvenOdd();
-            E1.find(5);
+             E1.find(5);
         }
 
 }
