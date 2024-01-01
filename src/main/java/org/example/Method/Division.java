@@ -2,7 +2,7 @@ package org.example.Method;
 
 public class Division {
 
-        public int Div(int x,int y){
+    public int Div(int x,int y){
 
             return(x / y);
         }
