@@ -5,7 +5,7 @@ class AgeClassifier
 	
 	public static void main(String args[])
 	{
-		int age = 30;
+		int age = 25;
 	
 	if( age <= 10)
 	{	
