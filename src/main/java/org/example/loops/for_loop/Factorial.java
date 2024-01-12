@@ -8,11 +8,11 @@ class Factorial
 
 
 		int fact = 1;
-		for( int i=1; i<=5; i++)
+		for( int i=1; i<=8; i++)
 	{
 		fact =fact*i;
 	}	
-		System.out.println("factorial for Number 5 =" + fact);
+		System.out.println("factorial for Number 8 =" + fact);
 		
 	}	
 }
