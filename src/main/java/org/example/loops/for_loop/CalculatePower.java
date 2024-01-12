@@ -4,7 +4,7 @@ package org.example.loops.for_loop;//Calculate Power:
 class CalculatePower
 {
 	public static void main(String args[])
-	{
+		{
 			int a = 2;
 			int power = 1;
 			System.out.println("The 2 raised to the power of number = " + (0) + " is " + 1  ) ;//print hardcode value for 2 raised to the power 0.
@@ -13,7 +13,7 @@ class CalculatePower
 				power = power * a;
 				System.out.println("The 2 raised to the power of number " 	+ i + " is " + power  );
 			}
-	}	
+		}
 		
 }		
 			
