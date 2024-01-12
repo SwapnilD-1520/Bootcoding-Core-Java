@@ -2,13 +2,13 @@ package org.example.loops.for_loop;//Write a program to print all even numbers b
  
 class EvenNumber
 {
-	public static void main(String args[])
+		public static void main(String args[])
 
-	{
-		for(int i=1; i<=20; i++)
 		{
-	 		if(i%2==0)
-		 	System.out.println("The Even numbers = "+ i);
+			for(int i=1; i<=20; i++)
+			{
+	 			if(i%2==0)
+		 		System.out.println("The Even numbers = "+ i);
+			}
 		}
-	}	
 }
