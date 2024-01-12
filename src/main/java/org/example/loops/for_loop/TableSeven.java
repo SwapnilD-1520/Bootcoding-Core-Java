@@ -2,10 +2,10 @@ package org.example.loops.for_loop;//Write a program that prints the multiplicat
 
 class TableSeven
 {
-	public static void main(String args[])
-	{
-		for(int i=1; i<=10; i++)
-		System.out.println("The given table for seven =" +(i*7));
-	}	
+		public static void main(String args[])
+		{
+			for(int i=1; i<=10; i++)
+			System.out.println("The given table for seven =" +(i*7));
+		}
 
 }
